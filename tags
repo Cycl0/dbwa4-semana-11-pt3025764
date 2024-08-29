@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/lucas/mytemp/dwba4-semana-04/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220424.0/
+ADS - IFSP - Pirituba	ads.html	/^<title>ADS - IFSP - Pirituba<\/title>$/;"	j
+AnonymousFunction12b4b8e90100	js/disabling.js	/^	    document.addEventListener("contextmenu", function(e){$/;"	f
+AnonymousFunction12b4b8e90200	js/disabling.js	/^	    document.addEventListener("keydown", function(e) {$/;"	f
+Conheça o SUAP	index.html	/^            <\/h1>$/;"	h
+Conheça os novos títulos disponíveis na nossa biblioteca	index.html	/^                <h2>Conheça os novos títulos disponíveis na nossa biblioteca<\/h2>$/;"	i
+Contato - IFSP - Pirituba	contato.html	/^<title>Contato - IFSP - Pirituba<\/title>$/;"	j
+HOME - IFSP - Pirituba - DWBA4	index.html	/^    <title>HOME - IFSP - Pirituba - DWBA4<\/title>$/;"	j
+IFSP - Pirituba	menu.html	/^<title>IFSP - Pirituba<\/title>$/;"	j
+Sobre - IFSP - Pirituba	sobre.html	/^<title>Sobre - IFSP - Pirituba<\/title>$/;"	j
+Sobre a Biblioteca	index.html	/^            <\/h1>$/;"	h
+cabecalho	ads.html	/^<header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->$/;"	I
+cabecalho	contato.html	/^  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->$/;"	I
+cabecalho	index.html	/^    <header id="cabecalho">$/;"	I
+cabecalho	sobre.html	/^  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->$/;"	I
+disabledEvent	js/disabling.js	/^    	function disabledEvent(e){$/;"	f	function:window.onload
+my_menu	index.html	/^        <div id="my_menu" align="left">$/;"	I
+my_menu	menu.html	/^    <div id="my_menu" align="right">$/;"	I
+onload	js/disabling.js	/^	  window.onload = function() {$/;"	f	function:window

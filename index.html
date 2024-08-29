@@ -1,0 +1,203 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon" />
+    <title>HOME - IFSP - Pirituba - DWBA6</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/slideShow.css">
+    <script defer type="text/javascript" src="js/slideShow.js"></script>
+  </head>
+
+  <body>
+    <header id="cabecalho">
+      
+      <nav id="my_menu">
+        <ul>
+          <li> <a href="index.html" target="_top">HOME</a></li>
+          <li> <a href="eventos.html" target="_top">EVENTOS</a></li>
+          <li> <a href="contato.html" target="_top">CONTATO</a></li>
+          <li class="cursos-dropdown">
+            <a href="#" class="cursos">CURSOS</a>
+            <ul class="content">
+              <li>
+                <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+              </li>
+              <li>
+                <a href="#">Engenharia de Produção</a>
+              </li>
+              <li>
+                <a href="#">Gestão em Tecnologia da Informação</a>
+              </li>
+              <li>
+                <a href="#">Letras</a>
+              </li>
+              <li>
+                <a href="#">Gestão Pública</a>
+              </li>
+            </ul>     
+            <li><a href="entrar.html" target="_top">ENTRAR</a></li>
+            <li id='about'><a  href="sobre.html" target="_top">SOBRE</a></li>
+        </ul>
+      </nav>  
+      <div class="banner">
+        <img src="Imagens/Logo.jpg" alt="logo ifsp"/>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="Imagens/A.png" style="width:100%">
+            <div class="text">Caption One</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="Imagens/B.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="Imagens/C.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <section>
+              <h1>Conheça os desafios de inovação</h1>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/5g5LQe3m8Po"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </section>
+            <div class="text">Caption Four</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div class="dotContainer" style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="cur∩rentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        
+      </section>
+      <section class="grid">
+        <figure>
+          <img
+            src="Imagens/eleicoes.jpg"
+            alt="Radar IFSP: informe-se sobre as eleições do dia 13 de outubro"
+            width="100%"
+            height="300px"
+          />
+          <figcaption>
+            <b>Radar IFSP: informe-se sobre as eleições do dia 13 de outubro</b>
+            <p>Todos os alunos e servidores podem votarç acesse aqui a cabine de votação online do seu câmpus</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="Imagens/residencia.png"
+            alt="IFSP oferece boolsa aos voluntários da Residência Pedagógica"
+            width="100%"
+            height="300px"
+          />
+          <figcaption>
+            <b>IFSP oferece boolsa aos voluntários da Residência Pedagógica</b>
+            <p>Bolsa de R$ 400,00 será paga pelo período de três meses</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="Imagens/snct.jpg"
+            alt="IFSP: SNCT reúne atividades entre 19 e 24 de outubro"
+            width="100%"
+            height="300px"
+          />
+          <figcaption>
+            <b>IFSP: SNCT reúne atividades entre 19 e 24 de outubro</b>
+            <p>Programação reunirá iniciativas para aproximar pesquisadores e atividades culturais</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="Imagens/maratona.jpeg"
+            alt="Inscrições abertas para a III Maratona InterIF"
+            width="100%"
+            height="300px"
+          />
+          <figcaption>
+            <b>Inscrições abertas para a III Maratona InterIF</b>
+            <p>Maratona de programação do IFSP será realizada online, no dia 31 de outubro; inscrições até 26 de outubro</p>
+          </figcaption>
+        </figure>
+      </section>
+      <aside>
+        <h1>Acontece no IFSP!</h1>
+        <figure>
+          <img
+            class="imagemEvento" 
+            src="Imagens/SEJA_RARO.jpg"
+            alt="Palestra Seja Raro"
+            width="50%"
+            height="50%"
+          />
+          <figcaption class="legenda">
+            Aniversário do IFSP - Pirituba - Palestra Augusto Aielo
+          </figcaption>
+        </figure>
+      </aside>
+
+      <section>
+        <h1>Sobre a Biblioteca</h1>
+
+        <article>
+          <img src="Imagens/library.jpeg" alt="Biblioteca" />
+          <h2>Conheça os novos títulos disponíveis na nossa biblioteca</h2>
+          <h6>Publicado: Quarta-feira, 14 de agosto de 2019</h6>
+        </article>
+      </section>
+      
+      <section>
+        <h1>Conheça os desafios de inovação</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/5g5LQe3m8Po"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#cabecalho"
+        ><img
+          src="Imagens/MoveTop.png"
+          width="41"
+          height="43"
+          title="Mover para o topo"
+          alt="Mover para o topo"
+      /></a>
+      <object width="100%" data="footer.html"></object>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+main {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrar {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrar img {
+    width: 100px;
+}
+
+.entrar form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.usuario-senha {
+  background: white;
+}
+
+.usuario-senha input {
+    width: 100%;
+}
+
+.checkbox-wrapper {
+    display: flex !important;
+    justify-content: center;
+}
+
+.esqueci-senha {
+    text-align: center;
+}
+
+.btn-entrar {
+    width: 100%;
+}
