@@ -15,6 +15,7 @@ function getHtmlFiles(dir) {
 
 export default defineConfig({
   plugins: [react()],
+  base: "dwba4-semana-11-pt3025764",
   build: {
     rollupOptions: {
       input: {
